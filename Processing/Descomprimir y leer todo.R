@@ -116,6 +116,20 @@ encla2014_a<-read_sav(paste0("../Input/Descomprimido/Encla2014/",encla2014[9]))
 encla2014_s<-read_sav(paste0("../Input/Descomprimido/Encla2014/",encla2014[10]))
 encla2014_t<-read_sav(paste0("../Input/Descomprimido/Encla2014/",encla2014[12]))
 
+## 2019
+## Archivos descargados de INE
+encla2019<-list.files("../Input/Descomprimido/Encla2019")
+encla2019
+get(load(paste0("../Input/Descomprimido/Encla2019/",encla2019[13])))
+get(load(paste0("../Input/Descomprimido/Encla2019/",encla2019[12])))
+get(load(paste0("../Input/Descomprimido/Encla2019/",encla2019[14])))
+get(load(paste0("../Input/Descomprimido/Encla2019/",encla2019[15])))
+
+encla2019_e<-empleadores
+encla2019_a<-autoaplicado
+encla2019_s<-sindicatos
+encla2019_t<-trabajadores
+
 
 ## Guardar proyecto
 save(encla1998_e,encla1998_ts,
@@ -126,5 +140,6 @@ save(encla1998_e,encla1998_ts,
      encla2008_a,encla2008_e,encla2008_s,encla2008_t,
      encla2011_a,encla2011_e,encla2011_s,encla2011_t,
      encla2014_a,encla2014_e,encla2014_s,encla2014_t,
+     encla2019_a,encla2019_e,encla2019_s,encla2019_t,
      file = "../Input/enclas.RData")
 
