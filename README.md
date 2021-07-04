@@ -8,14 +8,14 @@ Por temas de espacio del repositorio no se suben las bases de datos. Estas fuero
 
 **Tablas:**
 
-[Cuadro 1.Porcentaje de empresas con sindicatos]("https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro1.Empresas_con_sindicato.xlsx")
+[Cuadro 1.Porcentaje de empresas con sindicatos](https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro1.Empresas_con_sindicato.xlsx)
 
-[Cuadro 2.Porcentaje de empresas con sindicatos según tamaño de empresa]("https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro2.Empresas_con_sindicato_tamano")
+[Cuadro 2.Porcentaje de empresas con sindicatos según tamaño de empresa](https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro2.Empresas_con_sindicato_tamano)
 
-[Cuadro 3.Porcentaje de empresas con sindicatos según sector económico]("https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro3.Empresas_con_sindicato_sector.xlsx")
+[Cuadro 3.Porcentaje de empresas con sindicatos según sector económico](https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro3.Empresas_con_sindicato_sector.xlsx)
 
-[Cuadro 4.Porcentaje de empresas con sindicatos según sector económico y tamaño]("https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro4.Empresas_con_sindicato_sector_tamaño.xlsx")
+[Cuadro 4.Porcentaje de empresas con sindicatos según sector económico y tamaño](https://github.com/nicolasrattor/Enclas_1998_2019/raw/main/Output/cuadro4.Empresas_con_sindicato_sector_tamaño.xlsx)
 
 **Gráficos:**
 
-[](https://github.com/nicolasrattor/Enclas_1998_2019/blob/main/Output/grafico2_porcentaje_empresas_sindicato.png)
+![](https://github.com/nicolasrattor/Enclas_1998_2019/blob/main/Output/grafico2_porcentaje_empresas_sindicato.png)
