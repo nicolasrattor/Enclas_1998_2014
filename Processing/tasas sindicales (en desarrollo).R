@@ -340,6 +340,21 @@ a<-cbind(attr(encla1998_e$rama,"labels") %>% as.data.frame() %>% rownames() %>% 
 sector_1998<-merge(sector_1998,a,by="sector",all.x = TRUE)
 
 
+## Sector y tamaño
+a<-cbind(attr(encla1998_e$rama,"labels") %>% as.data.frame() %>% rownames() %>% as.data.frame()) %>% 
+  mutate(sector_letra=c("A","B","C","D-E","F","G-I","H-J","K-L","Q-S"),
+         sector=c(1:9))
+
+sector_tamano_1998<-encla1998_e %>% group_by(sindicato,rama,tamaño) %>% 
+  tally() %>% pivot_wider(names_from = sindicato,values_from = n) %>% 
+  rename(sin_sindicato=`0`,con_sindicato=`1`,sector=rama) %>% 
+  mutate(porcentaje_sindicato=con_sindicato/(sin_sindicato+con_sindicato)) %>% 
+  mutate(ENCLA=1998) %>% merge(a,by="sector")
+
+
+
+
+
 
 
 
@@ -386,7 +401,8 @@ write_xlsx(list("1998"=sector_1998,"1999"=sector_1999,"2002"=sector_2002,
 
 
 write_xlsx(list("2019"=sector_tamano_2019,
-                "2014"=sector_tamano_2014),"../Output/cuadro4.Empresas_con_sindicato_sector_tamaño.xlsx", col_names = TRUE,format_headers = TRUE)
+                "2014"=sector_tamano_2014,
+                "1998"=sector_tamano_1998),"../Output/cuadro4.Empresas_con_sindicato_sector_tamaño.xlsx", col_names = TRUE,format_headers = TRUE)
 
 
 

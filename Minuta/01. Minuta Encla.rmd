@@ -1,0 +1,29 @@
+---
+title: "Minuta N°X. Porcentaje de empresas con sindicato 1998-2019. Análisis combinado de encuestas laborales Encla"
+description: |
+  En el documento hacemos un análisis combinado de las encuestas laboral de la Dirección del Trabajo, desde su primera versión de 1998 hasta la novenda de 2019. Este es el documento de análisis de la información, la versión estilizada y publicada se encuentre en el siguiente link: <https://repositoriosindical.netlify.app/>
+author:
+  - name: Nicolás Ratto
+    affiliation: Repositorio de Estadísticas Sindicales
+    affiliation_url: https://repositoriosindical.netlify.app/
+date: "`r Sys.Date()`"
+journal: "Repositorio de Estadísticas Sindicales"
+citation_url: https://repositoriosindical.netlify.app/
+output: 
+ distill::distill_article:
+   toc: true
+   toc_depth: 1
+   toc_float: TRUE
+---
+
+```{r warning=FALSE,message=FALSE}
+library(readxl)
+library(tidyverse)
+library(lubridate)
+library(openxlsx)
+
+```
+
+# 1. El problema
+
+En desarrollo. 
